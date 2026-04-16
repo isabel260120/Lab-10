@@ -3,13 +3,14 @@ public class Main {
     public static void main(String[] args) {
         Trie trie = new Trie();
 
-        // Inserciones de ejemplo
+        //inserciones
         trie.insert("casa");
         trie.insert("canto");
         trie.insert("carro");
         trie.insert("carne");
         trie.insert("camino");
         trie.insert("carro");
+        trie.insert("camino");
 
         // Search
         System.out.println("search(\"carro\") -> " + trie.search("carro"));
